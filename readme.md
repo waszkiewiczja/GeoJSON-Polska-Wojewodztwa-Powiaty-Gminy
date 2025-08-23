@@ -2,21 +2,28 @@
 
 Zbiór danych granic administracyjnych Polski w formacie **GeoJSON** przygotowany do użycia m.in. w **OpenStreetMap**, **Leaflet** oraz innych aplikacjach mapowych.
 
+---
 
 ## GeoJSON województwa
 
 Granice wszystkich województw w Polsce.  
 Każdy obiekt zawiera kod TERYT i nazwę województwa w polu `properties`.
 
+---
+
 ## GeoJSON powiaty
 
 Granice wszystkich powiatów w Polsce.  
 Każdy obiekt zawiera kod TERYT i nazwę powiatu w polu `properties`.
 
+---
+
 ## GeoJSON gminy
 
 Granice wszystkich gmin w Polsce.  
 Każdy obiekt zawiera kod TERYT i nazwę gminy w polu `properties`.
+
+---
 
 ## Źródło danych
 
@@ -24,9 +31,13 @@ Każdy obiekt zawiera kod TERYT i nazwę gminy w polu `properties`.
 - Wykonano transformację układu współrzędnych z **EPSG:2180** (PUWG 1992) do **EPSG:4326 (WGS84)**.  
 - Dane są kompatybilne z **OpenStreetMap** oraz **Leaflet**.
 
+---
+
 ## Uproszczenie geometrii
 
 Zastosowano metodę **Visvalingam Weighted Area (5%)**, co pozwala znacząco zmniejszyć rozmiar plików przy zachowaniu wysokiej jakości granic.
+
+---
 
 ## Struktura plików
 
@@ -43,6 +54,8 @@ JPT_KOD_JE – kod jednostki terytorialnej (zgodny z systemem TERYT)
 
 JPT_NAZWA_ – nazwa jednostki administracyjnej (np. gminy, powiatu, województwa)
 
+---
+
 ## Licencja
 
 Dane można używać w dowolnym celu (public domain).
@@ -50,7 +63,7 @@ Dane można używać w dowolnym celu (public domain).
 --------
 --------
 --------
-Długi opis
+Długi opis:
 
 --------
 --------
@@ -65,6 +78,9 @@ Repozytorium zawiera czwórpoziomowy podział administracyjny Polski - mapa Pols
 Kompletny zbiór danych granic administracyjnych [Polski](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json)
  w formacie GeoJSON. Dane przygotowane na podstawie zasobów **Geoportalu** (sierpień 2025) i zoptymalizowane do wykorzystania w aplikacjach webowych, mobilnych oraz projektach GIS.  
 
+---
+
+
 ## GeoJSON województwa
 
 <img src="/wojewodztwa%20geojson.jpg" alt="województwa geojson" width="475" height="475" />
@@ -75,6 +91,8 @@ Każdy obiekt w GeoJSON posiada:
 - `JPT_NAZWA_` – nazwa województwa  
 
 👉 Idealny do wizualizacji map województw w **OpenStreetMap, Leaflet, Mapbox** i innych bibliotekach mapowych.  
+
+---
 
 ## GeoJSON powiaty
 
@@ -88,6 +106,8 @@ Każdy obiekt w GeoJSON posiada:
 - `JPT_NAZWA_` – nazwa powiatu  
 
 👉 Dane powiatowe przydatne do analiz statystycznych, projektów badawczych oraz interaktywnych map powiatów.  
+
+---
 
 ## GeoJSON gminy
 
@@ -129,6 +149,8 @@ Każdy obiekt zawiera w sekcji `properties` podstawowe informacje:
 JPT_KOD_JE – kod jednostki terytorialnej (TERYT)
 
 JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
+
+---
 
 ##Licencja
 
@@ -193,11 +215,11 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 
 > ⚠️ Uwaga: w TERYT istnieje również **miasto Nowy Targ** (gmina miejska) z innym kodem. Ostatnia cyfra pozwala rozróżnić typ jednostki.
 
----
 
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
