@@ -1,4 +1,4 @@
-# GeoJSON Polska
+# 2025  GeoJSON Polska 🇵🇱
 
 Zbiór danych granic administracyjnych Polski w formacie **GeoJSON** przygotowany do użycia m.in. w **OpenStreetMap**, **Leaflet** oraz innych aplikacjach mapowych.
 
@@ -43,3 +43,4 @@ JPT_NAZWA_ – nazwa jednostki administracyjnej (np. gminy, powiatu, województw
 ## Licencja
 
 Dane można używać w dowolnym celu (public domain).
+
