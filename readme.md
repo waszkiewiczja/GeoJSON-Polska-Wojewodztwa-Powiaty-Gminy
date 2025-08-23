@@ -31,11 +31,11 @@ Zastosowano metodę **Visvalingam Weighted Area (5%)**, co pozwala znacząco zmn
 
 Każdy obiekt w pliku GeoJSON zawiera pole `properties` z podstawowymi informacjami:
 
-```json
 "properties": {
   "JPT_KOD_JE": "1211092",
   "JPT_NAZWA_": "Nowy Targ"
-}```
+}
+
 JPT_KOD_JE – kod jednostki terytorialnej (zgodny z systemem TERYT)
 
 JPT_NAZWA_ – nazwa jednostki administracyjnej (np. gminy, powiatu, województwa)
@@ -43,4 +43,5 @@ JPT_NAZWA_ – nazwa jednostki administracyjnej (np. gminy, powiatu, województw
 ## Licencja
 
 Dane można używać w dowolnym celu (public domain).
+
 
