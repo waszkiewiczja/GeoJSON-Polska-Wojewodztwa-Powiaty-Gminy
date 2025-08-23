@@ -128,8 +128,74 @@ JPT_KOD_JE – kod jednostki terytorialnej (TERYT)
 
 JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
-Licencja
-📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+##Licencja
+
+Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
+## Dokumentacja systemu TERYT – przykład Nowy Targ
+
+System [**TERYT**](https://eteryt.stat.gov.pl/eTeryt/rejestr_teryt/ogolna_charakterystyka_systemow_rejestru/ogolna_charakterystyka_systemow_rejestru.aspx?contrast=default) zawiera identyfikatory i nazwy jednostek **zasadniczego trójstopniowego podziału terytorialnego kraju** i jest zbudowany według hierarchicznej numeracji: **województw, powiatów, gmin**.
+
+---
+
+### Budowa identyfikatora terytorialnego
+
+Identyfikator terytorialny składa się z **trzech członów**, z których każdy ma określone znaczenie:
+
+### Człon I – województwo
+
+- **2 cyfry**  
+- Symbol województwa nadany województwom ułożonym w kolejności alfabetycznej  
+- Liczby parzyste w przedziale: **02 – 98**
+
+### Człon II – powiat / miasto na prawach powiatu
+
+- **2 cyfry**  
+- Symbol powiatu nadany powiatom danego województwa, w kolejności alfabetycznej  
+- Miasta na prawach powiatu:  
+  - 01–60 → powiaty  
+  - 61–99 → miasta na prawach powiatu
+
+### Człon III – gmina / dzielnica / delegatura
+
+- **3 cyfry**  
+- Dwie pierwsze cyfry → kolejne liczby gmin (dzielnic, delegatur) w powiecie, w kolejności alfabetycznej, zaczynając od gmin miejskich, następnie wiejskie i miejsko-wiejskie  
+- Trzecia cyfra → symbol rodzaju jednostki:
+
+| Cyfra | Rodzaj jednostki |
+|-------|----------------|
+| 1     | gmina miejska |
+| 2     | gmina wiejska |
+| 3     | gmina miejsko-wiejska |
+| 4     | miasto w gminie miejsko-wiejskiej |
+| 5     | obszar wiejski w gminie miejsko-wiejskiej |
+| 8     | dzielnice m. st. Warszawy |
+| 9     | delegatury w miastach: Kraków, Łódź, Poznań, Wrocław |
+
+---
+
+### Przykład – Gmina Nowy Targ
+
+Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
+
+
+### Rozbicie kodu
+
+| Pozycja | Kod  | Znaczenie |
+|----------|------|-----------|
+| 1–2      | 12   | Województwo **Małopolskie** |
+| 3–4      | 11   | Powiat **Nowotarski** |
+| 5–6      | 09   | Kolejna gmina w powiecie (alfabetycznie) |
+| 7        | 2    | Typ gminy: **wiejska** |
+
+> ⚠️ Uwaga: w TERYT istnieje również **miasto Nowy Targ** (gmina miejska) z innym kodem. Ostatnia cyfra pozwala rozróżnić typ jednostki.
+
+---
+
+### Podsumowanie
+
+Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
