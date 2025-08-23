@@ -74,8 +74,6 @@ Każdy obiekt w GeoJSON posiada:
 - `JPT_KOD_JE` – kod TERYT województwa  
 - `JPT_NAZWA_` – nazwa województwa  
 
-📂 [Pobierz plik GeoJSON województwa](data/wojewodztwa.geojson)  
-
 👉 Idealny do wizualizacji map województw w **OpenStreetMap, Leaflet, Mapbox** i innych bibliotekach mapowych.  
 
 ## GeoJSON powiaty
@@ -84,8 +82,6 @@ Każdy obiekt w GeoJSON posiada:
 
 Granice wszystkich [powiatów w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/powiaty.json).  
 Każdy rekord zawiera kod **TERYT powiatu** oraz jego **nazwę**, co pozwala na łatwą integrację z innymi zbiorami danych publicznych.  
-
-📂 [Pobierz plik GeoJSON powiaty](data/powiaty.geojson)  
 
 👉 Dane powiatowe przydatne do analiz statystycznych, projektów badawczych oraz interaktywnych map powiatów.  
 
@@ -97,8 +93,6 @@ Najbardziej szczegółowy plik – granice wszystkich [gmin w Polsce](https://gi
 W `properties` zapisano:  
 - `JPT_KOD_JE` – kod TERYT gminy  
 - `JPT_NAZWA_` – nazwa gminy  
-
-📂 [Pobierz plik GeoJSON gminy](data/gminy.geojson)  
 
 👉 Doskonały do tworzenia map lokalnych, aplikacji wizualizujących budżety gmin, wyniki wyborów, dane demograficzne czy projekty smart city.  
 
@@ -132,6 +126,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 Licencja
 📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
 
 
 
