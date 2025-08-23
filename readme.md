@@ -84,7 +84,7 @@ Granice wszystkich [powiatów w Polsce](https://github.com/waszkiewiczja/GeoJSON
 Każdy rekord zawiera kod **TERYT powiatu** oraz jego **nazwę**, co pozwala na łatwą integrację z innymi zbiorami danych publicznych.
 
 Każdy obiekt w GeoJSON posiada:  
-- `JPT_KOD_JE` – kod TERYT powaity  
+- `JPT_KOD_JE` – kod TERYT powiatu  
 - `JPT_NAZWA_` – nazwa powiatu  
 
 👉 Dane powiatowe przydatne do analiz statystycznych, projektów badawczych oraz interaktywnych map powiatów.  
@@ -106,7 +106,9 @@ W `properties` zapisano:
 
 - Dane pobrano z **Geoportalu** (sierpień 2025).  
 - Transformacja układu współrzędnych: **EPSG:2180 (PUWG 1992) → EPSG:4326 (WGS84)**.  
-- Pliki są w pełni kompatybilne z **OpenStreetMap, Leaflet, Mapbox** i dowolnym oprogramowaniem GIS obsługującym GeoJSON.  
+- Pliki są w pełni kompatybilne z **OpenStreetMap, Leaflet, Mapbox** i dowolnym oprogramowaniem GIS obsługującym GeoJSON.
+
+---
 
 ## Uproszczenie geometrii
 
@@ -196,6 +198,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
