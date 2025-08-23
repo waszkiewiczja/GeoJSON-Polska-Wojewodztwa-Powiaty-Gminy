@@ -60,7 +60,7 @@ Długi opis
 
 <img src="/polska%20geojson.jpg" alt="Polska geojson" width="475" height="475" />
 
-Kompletny zbiór danych granic administracyjnych [Polski](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json?short_path=1982f38)
+Kompletny zbiór danych granic administracyjnych [Polski](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json)
  w formacie GeoJSON. Dane przygotowane na podstawie zasobów **Geoportalu** (sierpień 2025) i zoptymalizowane do wykorzystania w aplikacjach webowych, mobilnych oraz projektach GIS.  
 
 Repozytorium zawiera trójpoziomowy podział administracyjny Polski:  
@@ -69,7 +69,7 @@ Repozytorium zawiera trójpoziomowy podział administracyjny Polski:
 
 <img src="/wojewodztwa%20geojson.jpg" alt="województwa geojson" width="475" height="475" />
 
-Plik z granicami wszystkich [województw w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json?short_path=1982f38) w układzie współrzędnych **WGS84 (EPSG:4326)**.  
+Plik z granicami wszystkich [województw w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/wojewodztwa.json) w układzie współrzędnych **WGS84 (EPSG:4326)**.  
 Każdy obiekt w GeoJSON posiada:  
 - `JPT_KOD_JE` – kod TERYT województwa  
 - `JPT_NAZWA_` – nazwa województwa  
@@ -82,7 +82,7 @@ Każdy obiekt w GeoJSON posiada:
 
 <img src="/powiaty%20geojson.jpg" alt="powiaty geojson" width="475" height="475" />
 
-Granice wszystkich [powiatów w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json?short_path=1982f38).  
+Granice wszystkich [powiatów w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/powiaty.json).  
 Każdy rekord zawiera kod **TERYT powiatu** oraz jego **nazwę**, co pozwala na łatwą integrację z innymi zbiorami danych publicznych.  
 
 📂 [Pobierz plik GeoJSON powiaty](data/powiaty.geojson)  
@@ -93,7 +93,7 @@ Każdy rekord zawiera kod **TERYT powiatu** oraz jego **nazwę**, co pozwala na 
 
 <img src="/gminy%20geojson.jpg" alt="gminy geojson" width="475" height="475" />
 
-Najbardziej szczegółowy plik – granice wszystkich [gmin w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json?short_path=1982f38).  
+Najbardziej szczegółowy plik – granice wszystkich [gmin w Polsce](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/gminy.json).  
 W `properties` zapisano:  
 - `JPT_KOD_JE` – kod TERYT gminy  
 - `JPT_NAZWA_` – nazwa gminy  
@@ -132,6 +132,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 Licencja
 📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
 
 
 
