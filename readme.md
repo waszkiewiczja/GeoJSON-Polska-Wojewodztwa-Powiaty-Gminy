@@ -58,9 +58,9 @@ Długi opis
 
 # 2025 GeoJSON Polska 🇵🇱 <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/3e616e8a-e1c9-4d1a-8ea8-4af989fece5c" />
 
-![Polska](polska%20geojson.jpg)
+<img src="/polska%20geojson.jpg" alt="Polska geojson" width="475" height="475" />
 
-Kompletny zbiór danych granic administracyjnych <img src="/polska.json" alt="Polska geojson" width="475" height="475" />w formacie GeoJSON. Dane przygotowane na podstawie zasobów **Geoportalu** (sierpień 2025) i zoptymalizowane do wykorzystania w aplikacjach webowych, mobilnych oraz projektach GIS.  
+Kompletny zbiór danych granic administracyjnych [Polski](/polska.json) w formacie GeoJSON. Dane przygotowane na podstawie zasobów **Geoportalu** (sierpień 2025) i zoptymalizowane do wykorzystania w aplikacjach webowych, mobilnych oraz projektach GIS.  
 
 Repozytorium zawiera trójpoziomowy podział administracyjny Polski:  
 
@@ -125,6 +125,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 Licencja
 📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
 
 
 
