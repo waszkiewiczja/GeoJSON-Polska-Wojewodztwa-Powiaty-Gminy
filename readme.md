@@ -63,7 +63,7 @@ Długi opis
 Kompletny zbiór danych granic administracyjnych [Polski](https://github.com/waszkiewiczja/GeoJSON-Polska-Wojewodztwa-Powiaty-Gminy/blob/main/polska.json)
  w formacie GeoJSON. Dane przygotowane na podstawie zasobów **Geoportalu** (sierpień 2025) i zoptymalizowane do wykorzystania w aplikacjach webowych, mobilnych oraz projektach GIS.  
 
-Repozytorium zawiera trójpoziomowy podział administracyjny Polski:  
+Repozytorium zawiera czwórpoziomowy podział administracyjny Polski - mapa Polski, mapa województw, mapa powiatów, mapa gmin.
 
 ## GeoJSON województwa
 
@@ -126,6 +126,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 Licencja
 📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
 
 
 
