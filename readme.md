@@ -20,7 +20,7 @@ Każdy obiekt zawiera kod TERYT i nazwę gminy w polu `properties`.
 
 ## Źródło danych
 
-- Dane pobrano z Dane pobrano z [**Geoportalu**](https://www.geoportal.gov.pl) w sierpniu 2025.
+- Dane pobrano z [**Geoportalu**](https://www.geoportal.gov.pl) w sierpniu 2025.
 - Wykonano transformację układu współrzędnych z **EPSG:2180** (PUWG 1992) do **EPSG:4326 (WGS84)**.  
 - Dane są kompatybilne z **OpenStreetMap** oraz **Leaflet**.
 
@@ -123,6 +123,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 Licencja
 📖 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
+
 
 
 
