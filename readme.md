@@ -152,7 +152,7 @@ JPT_NAZWA_ – nazwa jednostki (gmina, powiat, województwo)
 
 ---
 
-##Licencja
+## Licencja
 
 Dane udostępnione na zasadach public domain – można je swobodnie pobierać, edytować i wykorzystywać w dowolnych projektach (komercyjnych i niekomercyjnych).
 
@@ -219,6 +219,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
