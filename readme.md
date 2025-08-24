@@ -63,10 +63,9 @@ Dane można używać w dowolnym celu (public domain).
 --------
 --------
 --------
+--------
+--------
 Długi opis:
-
---------
---------
 --------
 
 # 2025 GeoJSON Polska 🇵🇱 <img width="32" height="32" alt="image" src="https://github.com/user-attachments/assets/3e616e8a-e1c9-4d1a-8ea8-4af989fece5c" />
@@ -219,6 +218,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
