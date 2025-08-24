@@ -158,7 +158,7 @@ Dane udostępnione na zasadach public domain – można je swobodnie pobierać, 
 
 ---
 
-## Dokumentacja systemu TERYT – przykład Nowy Targ
+## Dokumentacja systemu TERYT
 
 System [**TERYT**](https://eteryt.stat.gov.pl/eTeryt/rejestr_teryt/ogolna_charakterystyka_systemow_rejestru/ogolna_charakterystyka_systemow_rejestru.aspx?contrast=default) zawiera identyfikatory i nazwy jednostek **zasadniczego trójstopniowego podziału terytorialnego kraju** i jest zbudowany według hierarchicznej numeracji: **województw, powiatów, gmin**.
 
@@ -219,6 +219,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
