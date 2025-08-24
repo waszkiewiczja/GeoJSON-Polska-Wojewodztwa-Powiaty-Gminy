@@ -210,7 +210,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 |----------|------|-----------|
 | 1–2      | 12   | Województwo **Małopolskie** |
 | 3–4      | 11   | Powiat **Nowotarski** |
-| 5–6      | 09   | Kolejna gmina w powiecie (alfabetycznie) |
+| 5–6      | 09   | Gmina **Nowy Targ** |
 | 7        | 2    | Typ gminy: **wiejska** |
 
 > ⚠️ Uwaga: w TERYT istnieje również **miasto Nowy Targ** (gmina miejska) z innym kodem. Ostatnia cyfra pozwala rozróżnić typ jednostki.
@@ -219,6 +219,7 @@ Kod TERYT dla gminy wiejskiej Nowy Targ: 1211092
 ### Podsumowanie
 
 Dzięki TERYT możemy jednoznacznie zidentyfikować każdą jednostkę administracyjną w Polsce: województwo, powiat, gminę oraz typ jednostki.
+
 
 
 
